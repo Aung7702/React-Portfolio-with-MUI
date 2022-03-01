@@ -89,7 +89,7 @@ const About = () => {
       <Grid container className={classes.aboutContainer}>
         <Grid container xs={12} md={4} xl={4}>
           <Grid item xs={12} md={4} lg={4}>
-            <img src={img} className={classes.image} alt="profile" />
+            <img src={img} alt="profile" className={classes.image} />
           </Grid>
         </Grid>
 

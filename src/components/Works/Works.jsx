@@ -24,11 +24,11 @@ const useStyles = makeStyles({
     flexDirection: "row",
     alignItems: "center",
   },
-  title: {
-    fontWeight: 100,
-  },
   workContainer: {
     padding: "1rem",
+  },
+  title: {
+    fontWeight: 100,
   },
   name: {
     fontWeight: 400,
