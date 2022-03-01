@@ -86,7 +86,6 @@ const Works = () => {
             const { id, name, text, link, image } = item;
             return (
               <Grid
-                animate={animation}
                 item
                 xs={12}
                 md={4}
