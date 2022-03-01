@@ -8,8 +8,6 @@ import {
   MessageRounded,
 } from "@material-ui/icons";
 
-import { motion } from "framer-motion";
-
 const drawerWidth = "3rem";
 
 const useStyles = makeStyles({
