@@ -32,14 +32,14 @@ const useStyles = makeStyles({
     justifyContent: "center",
     overflowX: "hidden",
   },
-  drawerPaperDark: {
-    background: "#000",
-  },
   links: {
     marginBottom: "1rem",
     background: "none",
     borderRadius: "5px",
     padding: "1rem",
+  },
+  drawerPaperDark: {
+    background: "#000",
   },
   bglinks: {
     color: "#3356C4",
