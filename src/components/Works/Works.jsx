@@ -28,7 +28,6 @@ const useStyles = makeStyles({
     padding: "1rem",
     transform: "translateX(-100px)",
   },
-
   title: {
     fontWeight: 100,
   },

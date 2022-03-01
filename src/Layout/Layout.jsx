@@ -76,21 +76,19 @@ const Layout = ({ children, darkMode, setDarkMode }) => {
           />
 
           <Chip
-            label={<Person />}
-            component="a"
-            href="#about"
-            clickable
-            className={classes.links}
-          />
-
-          <Chip
             label={<Apps />}
             component="a"
             href="#works"
             clickable
             className={classes.links}
           />
-
+          <Chip
+            label={<Person />}
+            component="a"
+            href="#about"
+            clickable
+            className={classes.links}
+          />
           <Chip
             label={<SettingsApplicationsRounded />}
             component="a"
