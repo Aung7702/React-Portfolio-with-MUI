@@ -74,6 +74,7 @@ const Works = () => {
               <motion.div
                 className={classes.animation}
                 whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 1.1 }}
                 whileInView={{
                   x: 100,
                 }}

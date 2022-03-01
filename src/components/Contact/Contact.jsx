@@ -114,6 +114,7 @@ const Contact = () => {
                 <div className={classes.iconDivContainer}>
                   <motion.a
                     whileHover={{ scale: 1.3 }}
+                    whileTap={{ scale: 1.3 }}
                     href="https://www.facebook.com/aungwin.phyo.2"
                     className={classes.link}
                   >
@@ -121,6 +122,7 @@ const Contact = () => {
                   </motion.a>
                   <motion.a
                     whileHover={{ scale: 1.3 }}
+                    whileTap={{ scale: 1.3 }}
                     href="https://github.com/Aung7702"
                     className={classes.link}
                   >
@@ -128,6 +130,7 @@ const Contact = () => {
                   </motion.a>
                   <motion.a
                     whileHover={{ scale: 1.3 }}
+                    whileTap={{ scale: 1.3 }}
                     href="https://www.linkedin.com/in/aung-win-phyo-857557a222"
                     className={classes.link}
                   >

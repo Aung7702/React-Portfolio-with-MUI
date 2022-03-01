@@ -66,7 +66,7 @@ const Layout = ({ children, darkMode, setDarkMode }) => {
               setDarkMode(!darkMode);
             }}
           />
-
+          {/* home */}
           <Chip
             label={<HomeRounded />}
             component="a"
@@ -74,7 +74,7 @@ const Layout = ({ children, darkMode, setDarkMode }) => {
             clickable
             className={classes.links}
           />
-
+          {/* works */}
           <Chip
             label={<Apps />}
             component="a"
@@ -82,6 +82,7 @@ const Layout = ({ children, darkMode, setDarkMode }) => {
             clickable
             className={classes.links}
           />
+          {/* about */}
           <Chip
             label={<Person />}
             component="a"
@@ -89,6 +90,7 @@ const Layout = ({ children, darkMode, setDarkMode }) => {
             clickable
             className={classes.links}
           />
+          {/* services */}
           <Chip
             label={<SettingsApplicationsRounded />}
             component="a"
@@ -96,7 +98,7 @@ const Layout = ({ children, darkMode, setDarkMode }) => {
             clickable
             className={classes.links}
           />
-
+          {/* contact */}
           <Chip
             label={<MessageRounded />}
             component="a"

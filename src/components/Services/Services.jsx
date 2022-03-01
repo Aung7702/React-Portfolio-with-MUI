@@ -64,7 +64,7 @@ const Services = () => {
 
       <Grid container>
         <Grid item xs={12} md={4} xl={4} className={classes.padding}>
-          <motion.div whileHover={{ y: -10 }}>
+          <motion.div whileHover={{ y: -10 }} whileTap={{ y: -10 }}>
             <Paper elevation={10} className={classes.service}>
               <div className={classes.serviceTitleContainer}>
                 <StyleRounded fontSize="large" className={classes.icon} />
@@ -81,7 +81,7 @@ const Services = () => {
         </Grid>
 
         <Grid item xs={12} md={4} xl={4} className={classes.padding}>
-          <motion.div whileHover={{ y: -10 }}>
+          <motion.div whileHover={{ y: -10 }} whileTap={{ y: -10 }}>
             <Paper elevation={10} className={classes.service}>
               <div className={classes.serviceTitleContainer}>
                 <CodeRounded fontSize="large" className={classes.icon} />
@@ -99,7 +99,7 @@ const Services = () => {
         </Grid>
 
         <Grid item xs={12} md={4} xl={4} className={classes.padding}>
-          <motion.div whileHover={{ y: -10 }}>
+          <motion.div whileHover={{ y: -10 }} whileTap={{ y: -10 }}>
             <Paper elevation={10} className={classes.service}>
               <div className={classes.serviceTitleContainer}>
                 <PhoneAndroidRounded

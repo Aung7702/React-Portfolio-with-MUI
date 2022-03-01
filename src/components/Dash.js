@@ -7,6 +7,9 @@ const Dash = () => {
       whileHover={{
         rotate: 180,
       }}
+      whileTap={{
+        rotate: 180,
+      }}
       style={{
         height: 25,
         width: 10,
